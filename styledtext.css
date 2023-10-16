@@ -1,0 +1,24 @@
+/************************************************************************************************/
+/* estilo para styledtext.html */ /* esto se pone para saber a que texto hace style*/
+/* autor:JF*/
+/* version1.0*/
+/* comentario: practicando css externo*/
+/************************************************************************************************/
+
+
+
+
+
+/*selectores de etiqueta*/
+body{background-color:black;
+    color:white;}
+h2{color:salmon;}
+/*selector de id unico */
+#encabezado1 {text-align: right}
+/* selector de class, colectivo*/
+.centrado{text-align:center}
+/*selector contextual, añade contexto, si especificamos bred hace que negrita sea en rojo, más de un selector separados con espacios*/
+.centrado b {color:red}
+
+/*Para poner una cosa en concreto tenemos que poner dentro de ese <h2 por ejemplo un id=¨nombre¨. Luego para definirlo tenemos que poner dentro de style #nombre{}>-->
+<!--Podemos agrupar varios usando id y nombrandolos, pero es mas sencillo meterlos dentro de una class especifica, para poner una clase dentro de style la escribimos empezando por .(.centrado)*/
